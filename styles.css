@@ -1,15 +1,16 @@
 /*SARA*/
-*{
+* {
     background-color: #e0e7f1;
 }
 
 
-#logo{
+#logo {
     display: block;
     margin: auto;
     height: 100px;
 }
-.nav-enlace{
+
+.nav-enlace {
     display: inline-block;
     background-color: #9dd0e3;
     color: black;
@@ -20,11 +21,12 @@
 }
 
 
-.nav-enlace:hover{
+.nav-enlace:hover {
     background-color: #5daac2;
     padding: 10px 30px;
 }
-nav{
+
+nav {
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -32,13 +34,58 @@ nav{
 }
 
 
-@media (max-width: 550px){
-    nav{
+@media (max-width: 550px) {
+    nav {
         flex-direction: column;
     }
-    .nav-enlace{
+
+    .nav-enlace {
         margin: 10px;
         text-align: center;
     }
 }
 
+/*SARA - Conflicto (intro)*/
+.intro {
+    text-align: justify;
+}
+
+/*SARA - Conflicto (galería de imágenes)*/
+.section-div {
+    padding: 20px 0px;
+    width: 49.999%;
+}
+
+.p-razon {
+    text-align: justify;
+    padding-right: 15px;
+}
+
+.section-img {
+    float: left;
+    width: 49.9999%;
+    padding-right: 15px;
+}
+
+@media (max-width: 550px) {
+    .section-div {
+        width: 100%;
+    }
+
+    .section-img {
+        height: 100%;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .p-razon {
+        padding-right: 0;
+    }
+}
+
+/*SARA - Conflicto (plazos de entrega)*/
+.entrega {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
