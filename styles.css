@@ -1,0 +1,11 @@
+/*SARA*/
+*{
+    background-color: #e0e7f1;
+}
+
+
+#logo{
+    display: block;
+    margin: auto;
+    height: 100px;
+}
