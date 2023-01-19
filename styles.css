@@ -3,6 +3,9 @@
     background-color: #e0e7f1;
 }
 
+.clearfix{
+    clear: both;
+}
 
 #logo {
     display: block;
@@ -104,4 +107,30 @@ div.precio {
         width: 100%;
         height: 100%;
     }
+}
+
+
+
+/*SARA - Footer*/
+footer{
+    height: 140px;
+    width: 100%;
+    background-color: #9dd0e3;
+}
+
+.foot{
+   
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    background-color: #9dd0e3;
+}
+
+.registroFooter{
+    background-color: #9dd0e3;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-top: 45px;
+    margin-right: 40px;
 }
