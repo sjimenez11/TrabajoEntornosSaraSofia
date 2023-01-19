@@ -14,11 +14,35 @@
     <header>
         <img src="imagenes/SweetCake.png" alt="" id="logo">
     </header>
+   <!--SOFIA-->
+    <div class="clearfix"></div>
+    <article>
+        <h1>Registrate</h1>
+        <form action="/action_page.php">
+            <label for="nombre">Poner nombre:</label><br><br>
+            <input type="text" id="nombre" name="nombre" pattern="[a-zA-Z]{3-50}" required=""><br><br>
+            <label for="apellido">Poner apellido1:</label><br><br>
+            <input type="text" id="apellido" name="apellido" pattern="[a-zA-Z]{3-50}" required=""><br><br>
+            <label for="apellido2">Poner apellido2:</label><br><br>
+            <input type="text" id="apellido2" name="apellido2" pattern="[a-zA-Z]{3-50}" required=""><br><br>
+            <label for="domicilio">Poner domicilio:</label><br><br>
+            <input type="text" id="domicilio" name="domicilio" pattern="\º[a-z A-Z 0-9]" required=""><br><br>
+            <label for="postal">Poner codigo postal:</label><br><br>
+            <input type="number" id="postal" name="postal" pattern="[ 0-9]{5}" required=""><br><br>
+            <label for="correo">Poner correo:</label><br><br>
+            <input type="tel" id="correo" name="correo" pattern="([A-Za-z0-9]{1-50}@gmail.com)" required=""><br><br>
+            <label for="telefono">Poner telefono:</label><br><br>
+            <input type="number" id="telefono" name="telefono" pattern="[ 0-9]{9}" required=""><br><br>
+            <label for="sexo">Poner nombre:</label><br><br>
+            <input type="text" id="sexo" name="sexo" pattern="[a-zA-Z]{3-6}" required=""><br><br>
+            <label for="fecha">Poner fecha:</label><br><br>
+            <input type="number" id="fecha" name="fecha" pattern="\d{1,2}/\d{1,2}/\d{4}" required=""><br><br>
+            <input type="submit" value="guardar">
+        </form>
+    </article>
 
     <div class="clearfix"></div>
 
-
-    <div class="clearfix"></div>
 
     <!--SARA-->
     <footer>
