@@ -9,3 +9,36 @@
     margin: auto;
     height: 100px;
 }
+.nav-enlace{
+    display: inline-block;
+    background-color: #9dd0e3;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-size: large;
+}
+
+
+.nav-enlace:hover{
+    background-color: #5daac2;
+    padding: 10px 30px;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #9dd0e3;
+}
+
+
+@media (max-width: 550px){
+    nav{
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px;
+        text-align: center;
+    }
+}
+
