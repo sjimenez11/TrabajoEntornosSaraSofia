@@ -7,10 +7,21 @@
     clear: both;
 }
 
+
+/*SARA - Header*/
 #logo {
     display: block;
     margin: auto;
     height: 100px;
+}
+
+
+/*SOFIA*/
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #9dd0e3;
 }
 
 .nav-enlace {
@@ -23,20 +34,10 @@
     font-size: large;
 }
 
-
 .nav-enlace:hover {
     background-color: #5daac2;
     padding: 10px 30px;
 }
-
-/*SOFIA*/
-nav {
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #9dd0e3;
-}
-
 
 @media (max-width: 550px) {
     nav {
@@ -49,6 +50,7 @@ nav {
     }
 }
 
+
 /*SOFIA*/
 div.gallery {
     margin: 5px;
@@ -57,10 +59,12 @@ div.gallery {
     width: 180px;
 }
 
+
 /*SARA - Conflicto (intro)*/
 .intro {
     text-align: justify;
 }
+
 
 /*SARA - Conflicto (plazos de entrega)*/
 .entrega {
@@ -68,6 +72,7 @@ div.gallery {
     padding: 10px;
     text-align: center;
 }
+
 
 /*SOFIA - Conflicto (galería de imágenes)*/
 h2 {
@@ -136,59 +141,64 @@ footer {
     margin-top: 45px;
     margin-right: 40px;
 }
-/*SOFIA*/
+
+
+
+/*SOFIA y SARA - Formulario*/
+h1{
+    text-align: center;
+}
+
+form{
+    display: grid;
+}
+
 input {
-    width: 30%;
-    background: #A1ABB5;
-
-
+    width: 500px;
+    background: #a6c0da66;
     display: inline-block;
-    padding: 0 1px;
     border-radius: 5px;
-    border: 1px solid #888;
-    color: #666;
     font-size: 20px;
-    margin: 1px 0;
+    margin: auto;
     line-height: 45px;
-
-
+    text-align: center;
 }
-
-
-input:focus {
-    color: #222;
-    background: #97ABBE;
-    border-color: #999;
-}
-
 
 input:valid {
     box-shadow: 0 0 2px rgba(0, 255, 0, 0.4);
 }
 
-
 input:valid:focus {
-    background: #80BE93;
+    background: #80be93a7;
     box-shadow: none;
 }
-
 
 input:invalid {
     box-shadow: 0 0 2px rgba(255, 0, 0, 0.4);
 }
 
-
 input:invalid:focus {
-    background: #CB9089;
+    background: #cb908989;
     box-shadow: none;
 }
 
 label {
     display: block;
-    float: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: large;
+    margin: auto;
 }
 
-label {
+.submit{
     display: block;
-    float: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 150px;
+}
+
+@media (max-width: 600px) {
+    input{
+        width: 100%;
+    }
 }
